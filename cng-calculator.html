@@ -18,7 +18,15 @@
     <a href="contact.html">Contact</a>
 </nav>
 
-<section><h1>Welcome to EdgeGas</h1><p>Your trusted partner for cryogenic & gas systems in Asia.</p></section>
+<section>
+        <h1>CNG Station Calculator</h1>
+        <p>Estimate your station needs:</p>
+        <input id="vehicles" type="number" placeholder="Vehicles per hour"><br>
+        <input id="volume" type="number" placeholder="Average volume per vehicle (litres)"><br>
+        <input id="pressure" type="number" placeholder="Starting pressure (bar)"><br>
+        <button onclick="calculateCNG()">Calculate</button>
+        <div id="result" style="margin-top:20px;"></div>
+    </section>
 <footer>&copy; 2025 EdgeGas. All rights reserved.</footer>
 </body>
 </html>
