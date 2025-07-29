@@ -1,0 +1,76 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>EdgeGas - Cryogenic & Gas Systems for Tomorrow</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+        * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Montserrat', sans-serif; }
+        body {
+            background: linear-gradient(135deg, #001f3f, #003366);
+            overflow-x: hidden;
+            color: #fff;
+        }
+        .gas-animation {
+            position: fixed;
+            top: 0; left: 0;
+            height: 100%; width: 100%;
+            background: url('https://www.transparenttextures.com/patterns/cloudy.png');
+            opacity: 0.05;
+            animation: moveGas 40s linear infinite;
+            z-index: 0;
+        }
+        @keyframes moveGas {
+            0% { background-position: 0 0; }
+            100% { background-position: 1000px 1000px; }
+        }
+        header {
+            position: relative;
+            text-align: center;
+            padding: 100px 20px;
+            background-color: rgba(0, 0, 50, 0.6);
+            z-index: 1;
+        }
+        header h1 { font-size: 3em; margin-bottom: 10px; }
+        header p { font-size: 1.3em; font-weight: 300; }
+        section {
+            padding: 60px 20px;
+            max-width: 960px;
+            margin: auto;
+            z-index: 1;
+            position: relative;
+        }
+        footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            background-color: rgba(0, 0, 50, 0.6);
+        }
+        @media (max-width: 600px) {
+            header h1 { font-size: 2em; }
+            header p { font-size: 1em; }
+        }
+    </style>
+</head>
+<body>
+    <div class="gas-animation"></div>
+    <header>
+        <h1>EdgeGas</h1>
+        <p>Cryogenic & Gas Systems for Tomorrow</p>
+    </header>
+    <section>
+        <h2>About Us</h2>
+        <p>EdgeGas is a leading provider of cryogenic and gas system solutions based in Vietnam. We serve industries across Asia with high-performance LNG, hydrogen, and industrial gas equipment.</p>
+    </section>
+    <section>
+        <h2>Contact</h2>
+        <p>Email: <strong>philippe.heisch@gmail.com</strong></p>
+    </section>
+    <footer>
+        &copy; 2025 EdgeGas. All rights reserved.
+    </footer>
+</body>
+</html>
