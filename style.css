@@ -1,29 +1,36 @@
+
 body {
-    font-family: 'Montserrat', sans-serif;
-    margin: 0;
-    background: linear-gradient(135deg, #001f3f, #003366);
-    color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  background: linear-gradient(135deg, #001f3f, #003366);
+  color: white;
 }
 header, footer {
-    background-color: #002244;
-    padding: 20px;
-    text-align: center;
+  background-color: #002244;
+  padding: 20px;
+  text-align: center;
 }
 nav {
-    background-color: #003366;
-    text-align: center;
-    padding: 10px;
+  background-color: #003366;
+  text-align: center;
+  padding: 10px;
 }
 nav a {
-    color: white;
-    margin: 0 15px;
-    text-decoration: none;
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
 }
 section {
-    padding: 40px;
+  padding: 40px;
 }
-input, textarea, button {
-    width: 100%%;
-    margin-top: 10px;
-    padding: 10px;
+.slider {
+  text-align: center;
+  margin: 20px auto;
+  max-width: 90%;
+}
+.slider img {
+  width: 100%;
+  height: auto;
+  display: none;
+  border-radius: 8px;
 }
